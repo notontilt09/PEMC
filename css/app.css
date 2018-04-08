@@ -23,6 +23,19 @@ li a:hover {
 	background-color: grey;
 }
 
+.bullets {
+	background-color: white;
+	margin: auto;
+}
+
+.bullets li {
+	width: 50%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: grey;
+	font-family: sans-serif;
+}
+
 .list1, .list2, .list3, .list4, .list5 {
 	width: 20%;
 	text-align: center;
@@ -63,6 +76,20 @@ li a:hover {
 	height: 100px;
 	margin: auto;
 } 
+
+#list_container {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+}
+
+#list_container ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 30px;
+	margin: auto;
+}
+
 p {
 	width: 80%;
 	margin: auto;
