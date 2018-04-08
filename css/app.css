@@ -43,6 +43,26 @@ li a:hover {
 	height: 400px;
 }
 
+.container {
+	display: flex;
+}
+
+.container_2 {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.pic1, .pic2, .pic3, .pic4 {
+	width: 25%;
+	height: 200px;
+}
+
+.container_2 img {
+	width: 20%;
+	padding: 50px;
+	height: 100px;
+	margin: auto;
+} 
 p {
 	width: 80%;
 	margin: auto;
@@ -70,6 +90,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+	.pic1, .pic2, .pic3, .pic4 {
+		display: none;
+	}
+
 	.sidenav {
 	    height: 100%;
 	    width: 0;
