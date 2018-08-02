@@ -174,6 +174,7 @@ li a:hover {
 	width: 100%;
 	text-align: center;
 	padding: 30px;
+	font-weight: bold;
 }
 
 .footer_logo {
@@ -233,6 +234,8 @@ li a:hover {
 .about_container {
 	margin-top: 340px;
 	background-color: #D7E1F7;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 p {
@@ -248,6 +251,14 @@ p {
 	#nav {
 		font-size: 16px;
 	}
+
+	.consulting {
+		width: 100%;
+	}
+
+	.container_right {
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 501px) {
@@ -258,10 +269,6 @@ p {
 
 @media screen and (max-width: 500px) {
 	.pic1, .pic2, .pic3, .pic4 {
-		display: none;
-	}
-
-	.consulting {
 		display: none;
 	}
 
@@ -339,6 +346,37 @@ p {
 
 .attribution {
 	text-align: right;
+}
+
+.bio {
+	width: 65%;
+	margin-left: 3.5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dianne {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.dianne img {
+	width: 200px;
+	height: 150px;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 616px) {
+	.bio {
+		width: 100%;
+		margin: auto;
+	}
+
+	.dianne {
+		padding-bottom: 50px;
+	}
 }
 
 
