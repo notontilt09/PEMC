@@ -58,10 +58,14 @@ li a:hover {
 .bullets li {
 	width: 45%;
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	color: #492D95;
 	font-family: Lato;
 	margin-left: 15px;
+}
+
+.bullets li a {
+	color: black;
 }
 
 .list1, .list2, .list3, .list4, .list5 {
@@ -206,10 +210,11 @@ li a:hover {
 	width: 100%;
 	margin: auto;
 	padding: 0px;
-	display: flex;
+	display: block;
 	flex-wrap: wrap;
-	color: blue;
+	color: black;
 	margin-top: 340px;
+	text-align: center;
 }
 
 #list_container ul {
@@ -217,18 +222,30 @@ li a:hover {
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
-	background-color: #D7E1F7;
-	text-shadow:
-		-1px -1px 0 white,
-		1px -1px 0 white,
-		-1px 1px 0 white,
-		1px 1px 0 white;
-
+	background-color: white;
 }
 
+
 #list_container img {
-	display: block;
+	display: flex;
+	flex-wrap: wrap;
 	margin: auto;
+}
+
+#list_container h1 {
+	padding-top: 50px;
+	font-size: 50px;
+	background-color: white;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+	.bullets li {
+		width: 90%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 }
 
 .about_container {
