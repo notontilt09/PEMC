@@ -47,7 +47,7 @@ li a {
 }
 
 li a:hover {
-	background-color: grey;
+	background-color: #598ef9;
 }
 
 .bullets {
@@ -192,7 +192,7 @@ li a:hover {
 .container_2 {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 340px;
+	margin-top: 380px;
 }
 .pic1, .pic2, .pic3, .pic4 {
 	width: 25%;
@@ -213,7 +213,7 @@ li a:hover {
 	display: block;
 	flex-wrap: wrap;
 	color: black;
-	margin-top: 340px;
+	margin-top: 380px;
 	text-align: center;
 }
 
@@ -395,6 +395,3 @@ p {
 		padding-bottom: 50px;
 	}
 }
-
-
-
